@@ -1,0 +1,42 @@
+body
+{
+    margin-top: 50px;
+}
+
+img
+{
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+table{
+    width: 300px;
+    text-align: left;
+}
+th{
+    text-decoration: underline;
+}
+.header{
+    display: flex;
+    align-items: center;
+    background-color: hsl(180, 4%, 78%);
+    color: black;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+
+}
+.home-btn{
+    margin-right: 5rem;
+}
+.workout-pic{
+    width: 400px;
+}
+
+.shoes-pic{
+height: 150px;
+}
