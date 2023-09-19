@@ -1,5 +1,21 @@
-body{
+body
+{
     margin-top: 50px;
+}
+
+img
+{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+table{
+    width: 300px;
+    text-align: left;
+}
+th{
+    text-decoration: underline;
 }
 
 /* Sports.html CSS */
@@ -18,4 +34,12 @@ body{
 }
 .home-btn{
     margin-right: 5rem;
+}
+
+.bayern-pic{
+    margin-left: 20px;
+}
+.olympics-pic{
+    width: 440px;
+    
 }
