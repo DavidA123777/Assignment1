@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Favorite Sports</title>
+    </head>
+    <link rel="stylesheet" href="Css/sports.css" />
+    <body>
+        <div class="header">
+            <a href="index.html">
+                <p class="home-btn">Home</p>
+            </a>
+            <a href="hobbies.html">
+                <p class="hobbies-btn">Hobbies</p>
+            </a>
+        </div>
+        <h1>My Favorite Sports</h1>
+        <hr />
+        <h3>Soccer</h3>
+        <img src="https://daily.jstor.org/wp-content/uploads/2018/06/soccer_europe_1050x700.jpg" class="soccer-pic" />
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg/1200px-FC_Bayern_M%C3%BCnchen_logo_%282017%29.svg.png" class="bayern-pic" />
+        <p>My favorite soccer team is Bayern Munich. I enjoy playing soccer with my friends and watching soccer games as a way of relaxing after a stressful week.</p>
+        <h3>Basketball</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" class="basketball-pic" />
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/25/New_York_Knicks_logo.svg/800px-New_York_Knicks_logo.svg.png" class="knicks-pic" />
+        <p>I used to watch the NBA all the time when I was younger and played in some leagues as well. I still enjoy the occassional game, especially the playoffs.</p>
+        <h3>The Olympics</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Olympic_rings_without_rims.svg/1200px-Olympic_rings_without_rims.svg.png" class="olympics-pic" />
+        <p>I enjoy watching both the summer and winter olympic games and seeing the best athletes in the world. It is inspirational and motivates me to do better and improve.</p>
+        <table>
+            <tr>
+                <th>Sport</th>
+                <th>Favorite Player</th>
+            </tr>
+            <tr>
+                <td id="soccer">Soccer</td>
+                <td>
+                    Luka Modrić
+                </td>
+            </tr>
+            <tr>
+                <td id="basketball">Basketball</td>
+                <td>Kobe Bryant</td>
+            </tr>
+        </table>
+        <p id="text">Change Color</p>
+        <button onclick="changeColor()">Change color!</button>
+        <script>
+
+            function changeColor() {
+                let btn = document.getElementById('text');
+                if (btn.style.color == 'red'){
+                    btn.style.color = "blue";
+                }
+                else{
+                    btn.style.color = "red";
+                }
+            }
+
+        </script>
+    </body>
+</html>
